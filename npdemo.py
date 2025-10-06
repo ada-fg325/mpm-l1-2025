@@ -6,5 +6,8 @@ def pipx(x):
 def pip2x(x):
    return np.pi + 2*x
 
+def pip3x(x):
+   return np.pi + 3*x
+
 print(pipx(2))
 print(pip2x(2.5))
