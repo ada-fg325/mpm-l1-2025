@@ -1,6 +1,10 @@
 import numpy as np
 
-def pip1(x):
+def pipx(x):
    return np.pi + x
 
-print(pip1(2))
+def pip2x(x):
+   return np.pi + 2*x
+
+print(pipx(2))
+print(pip2x(2.5))
